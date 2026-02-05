@@ -1,0 +1,23 @@
+To update EarlyStopping(patience=50) pass a new patience value, i.e. `patience=300` or use `patience=0` to disable EarlyStopping.
+
+286 epochs completed in 56.173 hours.
+Optimizer stripped from RT-DETR\Origin-PKI-P-NWD0.4\weights\last.pt, 69.9MB
+Optimizer stripped from RT-DETR\Origin-PKI-P-NWD0.4\weights\best.pt, 69.9MB
+
+Validating RT-DETR\Origin-PKI-P-NWD0.4\weights\best.pt...
+Ultralytics 8.3.55 🚀 Python-3.8.10 torch-2.4.1+cu124 CUDA:0 (NVIDIA GeForce RTX 3090 Ti, 24564MiB)
+rtdetr-l-PKI-P summary: 551 layers, 33,620,994 parameters, 0 gradients, 185.0 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 35/35 [00:17<00:00,  2.04it/s]
+                   all        548      38759      0.589      0.437      0.455       0.28
+            pedestrian        520       8844      0.636      0.502      0.541      0.267
+                people        482       5125      0.564      0.423      0.431      0.185
+               bicycle        364       1287      0.388      0.237      0.199     0.0946
+                   car        515      14064      0.806       0.82      0.852      0.622
+                   van        421       1975      0.649      0.455      0.482      0.364
+                 truck        266        750      0.644      0.341      0.372      0.246
+              tricycle        337       1045       0.47      0.298      0.297      0.169
+       awning-tricycle        220        532      0.372      0.162      0.178      0.117
+                   bus        131        251      0.751      0.577      0.629      0.463
+                 motor        485       4886      0.614       0.56      0.565      0.274
+Speed: 0.1ms preprocess, 16.2ms inference, 0.0ms loss, 0.2ms postprocess per image
+Results saved to RT-DETR\Origin-PKI-P-NWD0.4
