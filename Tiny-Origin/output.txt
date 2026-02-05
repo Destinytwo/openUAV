@@ -1,0 +1,13 @@
+300 epochs completed in 5.904 hours.
+Optimizer stripped from RT-DETR\Tiny-Origin\weights\last.pt, 66.2MB
+Optimizer stripped from RT-DETR\Tiny-Origin\weights\best.pt, 66.2MB
+
+Validating RT-DETR\Tiny-Origin\weights\best.pt...
+Ultralytics 8.3.49 🚀 Python-3.8.20 torch-2.4.1+cu121 CUDA:0 (NVIDIA GeForce RTX 3090 Ti, 24564MiB)
+rtdetr-l summary: 502 layers, 31,987,850 parameters, 0 gradients, 103.4 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 19/19 [00:10<00:00,  1.83it/s]
+                   all        300       8207      0.366      0.234      0.187     0.0562
+          earth_person        170       4891      0.373      0.202      0.177     0.0559
+            sea_person        244       3316       0.36      0.266      0.196     0.0564
+Speed: 0.2ms preprocess, 7.7ms inference, 0.0ms loss, 0.1ms postprocess per image
+Results saved to RT-DETR\Tiny-Origin
